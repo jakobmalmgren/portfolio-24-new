@@ -3,9 +3,9 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <Fragment>
+    <div className="projects">
       <h1>PROJECTS</h1>
-    </Fragment>
+    </div>
   );
 };
 

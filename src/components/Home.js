@@ -3,9 +3,9 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <Fragment>
+    <div className="home">
       <h1>HOME</h1>
-    </Fragment>
+    </div>
   );
 };
 

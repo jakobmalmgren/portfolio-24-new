@@ -1,41 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap"); */
+.contact {
+  height: 84%;
+  background-color: red;
+}
 
-.contact-container {
+/* .sec .contact-container {
   color: white;
   position: relative;
-}
+} */
 
 .contact-container-header {
-  color: black;
-  margin-bottom: 40px;
+  /* color: black; */
+  /* margin-bottom: 40px; */
 }
-.contact-container-header :nth-child(2) {
+/* .contact-container-header :nth-child(2) {
   font-size: 33px;
-  font-family: "Abril Fatface", cursive;
   text-align: center;
-}
+} */
 .contact-container-header :nth-child(1) {
-  font-size: 20px;
+  /* font-size: 20px; */
   text-align: center;
-  font-family: "Abril Fatface", cursive;
 }
 
 .contact-container-content {
-  padding: 20px;
-  width: 100%;
+  /* padding: 20px; */
+
+  height: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
+  background-color: aqua;
 }
-.contact-container-content p,
-.contact-container-content label,
-.form-btn h3,
-textarea::placeholder,
-input::placeholder {
-  font-family: "Advent Pro", sans-serif;
-  font-weight: bolder;
-}
+
 .contact-container-wrapper {
   height: 100%;
 }
@@ -77,6 +74,7 @@ input::placeholder {
   max-width: 470px;
   margin: 0 auto;
   margin-top: 20px;
+  background-color: green;
 }
 .form-wrapper {
   display: flex;
@@ -107,18 +105,16 @@ input::placeholder {
   width: 100%;
   border-radius: 30px;
   border: 1px solid black;
-  font-family: "Advent Pro", sans-serif;
   color: black;
   font-weight: bolder;
   letter-spacing: 1px;
 }
 
-.location-wrapper {
-  align-items: center;
+/* .location-wrapper {
+  /* align-items: center;
   justify-content: space-between;
-}
-
-.swap-icon {
+} */
+*/ .swap-icon {
   cursor: pointer;
 }
 
@@ -127,31 +123,16 @@ input::placeholder {
   height: 40px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: white;
+
   border: 1px solid black;
-  color: black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  transition: 0.5s;
 }
 .input-wrapper input,
 .input-wrapper textarea {
   background-color: white;
   outline: none;
 }
-.form-btn:hover {
-  transition: 0.5s;
-  color: white;
-  background: rgb(2, 54, 16);
-  background: linear-gradient(
-    270deg,
-    rgba(2, 54, 16, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
 
-.contact-modal {
+/* .contact-modal {
   width: 250px;
   padding: 10px;
   border: 1px solid black;
@@ -166,9 +147,9 @@ input::placeholder {
   left: 50%;
   top: 50%;
   transform: translate(-50%, 150%);
-}
+} */
 
-.contact-modal p {
+/* .contact-modal p {
   text-align: center;
   margin: 10px;
   font-size: 15px;
@@ -184,7 +165,7 @@ input::placeholder {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-}
+} */
 @media screen and (min-width: 500px) {
   .location-wrapper {
     display: flex;

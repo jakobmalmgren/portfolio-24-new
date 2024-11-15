@@ -1,15 +1,16 @@
 import "./App.css";
-import React, { Fragment } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import NavbarBig from "./components/NavbarBig";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Fragment>
+    <div className="app">
       <NavbarBig />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +18,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Fragment>
+      <Footer></Footer>
+    </div>
   );
 }
 
