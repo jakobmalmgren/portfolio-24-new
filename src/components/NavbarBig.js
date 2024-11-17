@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import icon from "../images/iconJakob.svg";
 import "./NavbarBig.css";
 
 const NavbarBig = () => {
   return (
     <Fragment>
       <nav className="navbar">
-        <aside className="navbar__icon">JM</aside>
+        <img className="navbar__icon" src={icon} alt="" />
         <section className="navbar__list-container">
           <section className="navbar__list-wrapper">
             <ul className="navbar__list">

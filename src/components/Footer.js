@@ -3,7 +3,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>footer</h1>
+      <p className="footer__text">
+        Copyright &copy; 2024 By Jakob Malmgren | All Rights Reserved{" "}
+      </p>
     </div>
   );
 };

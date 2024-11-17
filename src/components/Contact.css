@@ -1,80 +1,70 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap"); */
 .contact {
   height: 84%;
-  background-color: red;
+  background-color: black;
+  /* background-color: red; */
 }
 
-/* .sec .contact-container {
-  color: white;
-  position: relative;
-} */
-
-.contact-container-header {
-  /* color: black; */
-  /* margin-bottom: 40px; */
-}
-/* .contact-container-header :nth-child(2) {
-  font-size: 33px;
-  text-align: center;
-} */
 .contact-container-header :nth-child(1) {
-  /* font-size: 20px; */
   text-align: center;
 }
 
 .contact-container-content {
-  /* padding: 20px; */
-
   height: 100%;
   max-width: 1000px;
   margin: 0 auto;
   /* position: relative; */
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .contact-container-wrapper {
   height: 100%;
 }
 .contact-container-icons {
-  width: 100%;
+  /* width: 100%; */
   max-width: 470px;
   margin: 0 auto;
-  height: 100%;
-}
 
+  background-color: red;
+}
+.icon-circle__icon {
+  color: white;
+}
 .icon-wrapper {
-  padding: 8px;
   margin-bottom: 8px;
   align-items: center;
-  color: black;
+  /* color: black; */
 }
-
+/* .icon-wrapper__info-wrapper {
+  background-color: red;
+} */
+.icon-wrapper__text-upper {
+  color: #3a842d;
+}
+.icon-wrapper__text-below {
+  color: white;
+}
+iframe {
+  border-radius: 3%;
+}
 .icon-circle {
   margin-bottom: 5px;
-  border: 1px solid black;
+  border: 1px solid #3a842d;
   margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border-radius: 50%;
-}
+  width: 2.5rem;
+  height: 2.5rem;
+  /* background-color: white; */
+  background-color: black;
 
-.circleSwap {
-  border-radius: 6px;
-  padding: 8px;
+  border-radius: 10%;
 }
-
-.contact-container-inputfields {
-  width: 100%;
-  height: 100%;
-  max-width: 470px;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: green;
+.icon-wrapper__info-text {
+  color: white;
+}
+.input-field {
+  background-color: black;
 }
 .form-wrapper {
   display: flex;
@@ -86,19 +76,21 @@
   width: 100%;
   margin-bottom: 20px;
 }
+.input-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+}
 .formLabel {
   position: absolute;
   color: rgb(3, 3, 3);
-  background-color: white;
+  background-color: black;
+  color: white;
   top: -10px;
   left: 25px;
 }
-.form-wrapper-icon {
-  position: absolute;
-  right: 10px;
-  top: 15px;
-  color: black;
-}
+
 .form-wrapper textarea,
 .form-wrapper input {
   padding: 15px 15px 15px 25px;
@@ -106,25 +98,18 @@
   border-radius: 30px;
   border: 1px solid black;
   color: black;
-  font-weight: bolder;
   letter-spacing: 1px;
-}
-
-/* .location-wrapper {
-  /* align-items: center;
-  justify-content: space-between;
-} */
-*/ .swap-icon {
-  cursor: pointer;
 }
 
 .form-btn {
   width: 98px;
   height: 40px;
   cursor: pointer;
-  border-radius: 20px;
-
-  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0rem;
+  border: 1px solid #3a842d;
+  background-color: black;
+  color: white;
 }
 .input-wrapper input,
 .input-wrapper textarea {
@@ -132,40 +117,28 @@
   outline: none;
 }
 
-/* .contact-modal {
-  width: 250px;
-  padding: 10px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  position: absolute;
+#lname,
+#fname,
+#subject,
+#email {
+  border: 1px solid #3a842d;
+  background-color: black;
   color: white;
-  background-color: #023610;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 150%);
-} */
+}
+#lname::placeholder,
+#fname::placeholder,
+#subject::placeholder,
+#email::placeholder {
+  color: white;
+}
+.contact-container-inputfields {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  background-color: green;
+  /* height: 100%; */
+}
 
-/* .contact-modal p {
-  text-align: center;
-  margin: 10px;
-  font-size: 15px;
-}
-.contact-modal-icon {
-  font-size: 30px;
-}
-.contact-modal-btn {
-  height: 30px;
-  width: 80px;
-  margin: 10px;
-  background-color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-} */
 @media screen and (min-width: 500px) {
   .location-wrapper {
     display: flex;

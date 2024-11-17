@@ -1,4 +1,9 @@
 import "./Contact.css";
+import { CiMail } from "react-icons/ci";
+import { GiRotaryPhone } from "react-icons/gi";
+import { PiMapPinSimpleAreaThin } from "react-icons/pi";
+import { BsPerson, BsPersonPlus, BsPencil } from "react-icons/bs";
+
 // 'ndra om till BEM
 
 const Contact = () => {
@@ -6,26 +11,40 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-container-content">
         <div className="contact-container">
-          <div className="contact-container-header">
-            {/* <p> ~ Get in touch ~</p> */}
-            <h1>CONTACT</h1>
-          </div>
           <div className="contact-container-wrapper">
             <div className="contact-container-icons">
               <div className="icon-wrapper">
-                <div className="icon-circle"></div>
-                <p> +46768- 699954</p>
+                <div className="icon-circle">
+                  <GiRotaryPhone className="icon-circle__icon " />
+                </div>
+                <section className="icon-wrapper__info-wrapper">
+                  <p className="icon-wrapper__text-upper">Phone</p>
+                  <p className="icon-wrapper__text-below"> (+46) 768- 699954</p>
+                </section>
               </div>
               <div className="icon-wrapper">
-                <div className="icon-circle"></div>
-
-                <p>Jakob.Malmgren1987@gmail.com</p>
+                <div className="icon-circle">
+                  <CiMail className="icon-circle__icon " />
+                </div>
+                <section className="icon-wrapper__info-wrapper">
+                  <p className="icon-wrapper__text-upper">Email</p>
+                  <p className="icon-wrapper__text-below">
+                    Jakob.Malmgren1987@gmail.com
+                  </p>
+                </section>
               </div>
               <div className="location-wrapper">
                 {/* <div className="icon-wrapper"></div> */}
                 <div className="icon-wrapper">
-                  <div className="icon-circle"></div>
-                  <p> Kristianstad, Sweden</p>
+                  <div className="icon-circle">
+                    <PiMapPinSimpleAreaThin className="icon-circle__icon " />
+                  </div>
+                  <section className="icon-wrapper__info-wrapper">
+                    <p className="icon-wrapper__text-upper">Address</p>
+                    <p className="icon-wrapper__text-below">
+                      Kristianstad, Sweden
+                    </p>
+                  </section>
                 </div>
               </div>
 
@@ -55,6 +74,7 @@ const Contact = () => {
                       name="firstname"
                       placeholder="Your first name.."
                     />
+                    <BsPerson className="input-icon" />
                   </div>
 
                   <div className="input-wrapper">
@@ -68,6 +88,7 @@ const Contact = () => {
                       name="lastname"
                       placeholder="Your last name.."
                     />
+                    <BsPersonPlus className="input-icon" />
                   </div>
 
                   <div className="input-wrapper">
@@ -82,6 +103,7 @@ const Contact = () => {
                       name="email"
                       placeholder="Your email.."
                     />
+                    <CiMail className="input-icon" />
                   </div>
 
                   <div className="input-wrapper">
@@ -98,6 +120,7 @@ const Contact = () => {
                       name="message"
                       placeholder="Write something.."
                     ></textarea>
+                    <BsPencil className="input-icon" />
                   </div>
                 </div>
 
