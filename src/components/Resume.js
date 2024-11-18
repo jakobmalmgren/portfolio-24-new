@@ -1,5 +1,8 @@
 import "./Resume.css";
 import MyExperience from "./MyExperience.js";
+import MyEducation from "./MyEducation.js";
+import MySkills from "./MySkills.js";
+import AboutMe from "./AboutMe.js";
 
 const Resume = () => {
   return (
@@ -21,7 +24,10 @@ const Resume = () => {
           </section>
         </section>
         <section className="resume__show-section">
-          <MyExperience></MyExperience>
+          <AboutMe></AboutMe>
+          {/* <MyExperience></MyExperience> */}
+          {/* <MySkills></MySkills> */}
+          {/* <MyEducation></MyEducation> */}
         </section>
       </section>
     </div>

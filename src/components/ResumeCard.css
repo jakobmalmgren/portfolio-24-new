@@ -1,5 +1,5 @@
 .myexperienceCard {
-  background-color: rgb(46, 43, 43);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5rem;
   border: 1.4px solid #3a842d;
   padding: 1.6rem;
@@ -11,7 +11,7 @@
   color: #3a842d;
 }
 .myexperienceCard__kind-of-job {
-  color: white;
+  color: black;
   font-size: 1.5rem;
 }
 .myexperienceCard__company {

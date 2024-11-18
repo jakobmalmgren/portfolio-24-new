@@ -1,0 +1,39 @@
+.mySkills {
+  /* background-color: rgb(246, 7, 226); */
+  height: 100%;
+}
+.mySkills__header {
+  height: 10%;
+  /* background-color: green; */
+  font-size: 1.5rem;
+  color: white;
+}
+.mySkills__paragrapgh {
+  height: 10%;
+  /* background-color: green; */
+  color: #3a842d;
+}
+.mySkills__grid-skill-icons {
+  height: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.mySkills__grid-skill-icons__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.4px solid #3a842d;
+  background-color: white;
+  color: #3a842d;
+  border-radius: 0.5rem;
+}
+.skilldata-icon {
+  font-size: 1.7rem;
+}
+
+/* ikoner ska inte dras us...fixa de i gridden */
+/* göra som man hovrar över ikonerna så ser man va de e.. */

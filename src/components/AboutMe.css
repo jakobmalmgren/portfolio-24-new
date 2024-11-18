@@ -1,0 +1,24 @@
+.aboutMe {
+  /* background-color: rgb(246, 7, 226); */
+  height: 100%;
+}
+.aboutMe__header {
+  height: 10%;
+  /* background-color: green; */
+  font-size: 1.5rem;
+  color: white;
+}
+.aboutMe__paragrapgh {
+  height: 10%;
+  /* background-color: green; */
+  color: #3a842d;
+}
+.aboutMe__info-section {
+  height: 80%;
+}
+.aboutMe__info-section p {
+  color: white;
+}
+.aboutMe__info-section span {
+  color: #3a842d;
+}

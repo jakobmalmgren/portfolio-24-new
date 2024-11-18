@@ -1,7 +1,7 @@
 import "./MyExperience.css";
 import data from "../ExperienceData.js";
 
-import MyexperienceCard from "./MyexperienceCard";
+import ResumeCard from "./ResumeCard.js";
 const MyExperience = () => {
   return (
     <div className="myExperience">
@@ -12,9 +12,8 @@ const MyExperience = () => {
       </p>
       <section className="myExperience__grid">
         {data.map((item) => {
-          return <MyexperienceCard {...item}></MyexperienceCard>;
+          return <ResumeCard {...item}></ResumeCard>;
         })}
-
         {/* // om de kmr mer kort göra en scrollbar sidan */}
       </section>
     </div>
