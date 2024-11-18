@@ -1,0 +1,23 @@
+.myExperience {
+  /* background-color: rgb(246, 7, 226); */
+  height: 100%;
+}
+.myExperience__header {
+  height: 10%;
+  /* background-color: green; */
+  font-size: 1.5rem;
+  color: white;
+}
+.myExperience__paragrapgh {
+  height: 10%;
+  /* background-color: green; */
+  color: #3a842d;
+}
+.myExperience__grid {
+  height: 80%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* background-color: rgb(255, 242, 0); */
+}

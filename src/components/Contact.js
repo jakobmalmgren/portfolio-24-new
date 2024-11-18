@@ -131,6 +131,7 @@ const Contact = () => {
           </div>
         </div>
         {/* </div> */}
+        {/* den högra sidan ska ja kanske ha lika lång som vänsta... */}
       </div>
     </div>
   );

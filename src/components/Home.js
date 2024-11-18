@@ -11,12 +11,11 @@ const Home = () => {
         <section className="home__info-section-wrapper">
           <p className="home__info-section__p">Fullstack Developer</p>
           <h1 className="home__info-section__header">
-            Hello I´m <span className="home__span">Jakob Malmgren</span>
+            Hello I´m <br /> <span className="home__span">Jakob Malmgren</span>
           </h1>
           <p className="home__info-section__p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut
-            ipsum vero fugiat error sit alias obcaecati soluta debitis.
-            Recusandae.
+            Fullstack JavaScript Developer with a passion for UX/UI and the
+            creation of scalable projects.
           </p>
           <section className="home__btn-icons-wrapper">
             <section className="home__btn-section">
