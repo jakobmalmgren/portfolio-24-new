@@ -3,10 +3,12 @@ import MyExperience from "./MyExperience.js";
 import MyEducation from "./MyEducation.js";
 import MySkills from "./MySkills.js";
 import AboutMe from "./AboutMe.js";
+import logoNavbar from "../images/logoJM.png";
 
 const Resume = () => {
   return (
     <div className="resume">
+      <img src={logoNavbar} alt="" className="navbar__icon" />
       <section className="resume__wrapper">
         <section className="resume__btn-section">
           <section className="resume__btn-section__wrapper">
@@ -24,9 +26,9 @@ const Resume = () => {
           </section>
         </section>
         <section className="resume__show-section">
-          <AboutMe></AboutMe>
+          {/* <AboutMe></AboutMe> */}
           {/* <MyExperience></MyExperience> */}
-          {/* <MySkills></MySkills> */}
+          <MySkills></MySkills>
           {/* <MyEducation></MyEducation> */}
         </section>
       </section>

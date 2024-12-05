@@ -17,12 +17,12 @@
   height: 80%;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 75px);
+  grid-template-rows: repeat(5, 75px);
 }
 .mySkills__grid-skill-icons__wrapper {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,5 +35,6 @@
   font-size: 1.7rem;
 }
 
+/* ändra favicon me */
 /* ikoner ska inte dras us...fixa de i gridden */
 /* göra som man hovrar över ikonerna så ser man va de e.. */

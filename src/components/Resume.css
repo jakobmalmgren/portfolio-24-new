@@ -1,9 +1,18 @@
 .resume {
-  height: 84%;
+  height: 94%;
   /* background-color: green; */
   background-color: black;
+  width: 95vw;
 }
-
+.navbar__icon {
+  border: 1.4px solid #3a842d;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 .resume__wrapper {
   display: flex;
   /* background-color: brown; */

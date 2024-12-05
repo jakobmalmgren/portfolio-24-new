@@ -1,9 +1,11 @@
 import "./Projects.css";
+// import Link from "./Link";
+import logoNavbar from "../images/logoJM.png";
 
 const Projects = () => {
   return (
     <div className="projects">
-      <h1>PROJECTS</h1>
+      <img src={logoNavbar} alt="" className="navbar__icon" />
     </div>
   );
 };

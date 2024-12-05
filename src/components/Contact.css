@@ -1,12 +1,23 @@
 .contact {
-  height: 84%;
+  height: 94%;
   background-color: black;
+  width: 95vw;
+  /* width: 100%; */
   /* background-color: red; */
 }
 
 /* .contact-container-header :nth-child(1) {
   text-align: center;
 } */
+.navbar__icon {
+  border: 1.4px solid #3a842d;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 
 .contact-container-content {
   height: 100%;
@@ -72,9 +83,9 @@ iframe {
 .icon-wrapper__info-text {
   color: white;
 }
-.input-field {
+/* .input-field {
   background-color: black;
-}
+} */
 /* .form-wrapper {
   display: flex;
   flex-direction: column;
@@ -133,12 +144,27 @@ iframe {
   border: 1px solid #3a842d;
   background-color: black;
   color: white;
+  /* transition: border 1s ease-in-out; /*  */
+  transition: ease-in-out 0.2s;
+}
+#lname:hover,
+#fname:hover,
+#subject:hover,
+#email:hover {
+  cursor: pointer;
 }
 #lname::placeholder,
 #fname::placeholder,
 #subject::placeholder,
 #email::placeholder {
   color: white;
+}
+#lname:focus,
+#fname:focus,
+#subject:focus,
+#email:focus {
+  border: 2px solid white;
+  transition: ease-in-out 0.2s;
 }
 .contact-container-inputfields {
   /* background-color: red; */

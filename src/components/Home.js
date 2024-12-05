@@ -2,11 +2,17 @@ import img from "../images/me.jpg";
 import { LuGithub } from "react-icons/lu";
 import { RiLinkedinLine } from "react-icons/ri";
 import { LuDownload } from "react-icons/lu";
+// import LittleNav from "./LittleNav";
+import logoNavbar from "../images/logoJM.png";
+
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home">
+      {/* <LittleNav></LittleNav> */}
+      <img src={logoNavbar} alt="" className="navbar__icon" />
+
       <section className="home__info-section">
         <section className="home__info-section-wrapper">
           <p className="home__info-section__p">Fullstack Developer</p>

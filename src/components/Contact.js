@@ -3,12 +3,13 @@ import { CiMail } from "react-icons/ci";
 import { GiRotaryPhone } from "react-icons/gi";
 import { PiMapPinSimpleAreaThin } from "react-icons/pi";
 import { BsPerson, BsPersonPlus, BsPencil } from "react-icons/bs";
-
+import logoNavbar from "../images/logoJM.png";
 // 'ndra om till BEM
 
 const Contact = () => {
   return (
     <div className="contact">
+      <img src={logoNavbar} alt="" className="navbar__icon" />
       <div className="contact-container-content">
         {/* <div className="contact-container"> */}
         <div className="contact-container-wrapper">
@@ -68,6 +69,7 @@ const Contact = () => {
                     First Name
                   </label>
                   <input
+                    autoFocus
                     required
                     type="text"
                     id="fname"
@@ -138,3 +140,11 @@ const Contact = () => {
 };
 
 export default Contact;
+
+//styla klart about me
+// göra projects
+// knappar övrall boxshadow...ser finare ut då
+
+// hovra över skills så ser man va de e...
+
+// göra mobile, o hamburgar..
