@@ -1,28 +1,18 @@
 .home {
   display: flex;
-  height: 94%;
-  background-color: black;
-  width: 95vw;
+  height: 100%;
+  background-color: #262626;
+
+  width: 100%;
 }
-.navbar__icon {
-  border: 1.4px solid #3a842d;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  box-shadow: 0 0 25px #3a842d;
-}
+
 .home__info-section {
-  /* background-color: red; */
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home__info-section-wrapper {
-  /* background-color: grey; */
   width: 75%;
   height: 70%;
   display: flex;
@@ -38,41 +28,63 @@
   display: flex;
   align-items: center;
 }
-.home__btn-section__download-btn {
-  border: 1.4px solid #3a842d;
+/* .home__btn-section__download-btn {
+  border: 1.4px solid rgb(38 77 32);
   background-color: black;
-  color: #3a842d;
+  color: rgb(38 77 32);
   width: 200px;
   border-radius: 0.5rem;
   padding: 0.5rem 0rem;
-  box-shadow: 0 0 25px #3a842d;
-}
+  box-shadow: 0 0 10px #3a842d;
+} */
 .home__icon-section {
   display: flex;
+  /* width: 5%; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  height: 110px;
+  right: 1rem;
+  /* background-color: red; */
+  /* justify-content: space-between; */
 }
 .home__icon-section__container {
   width: 50px;
   height: 50px;
-  border: 1.4px solid #3a842d;
+  border: 1.4px solid rgb(38 77 32);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-  background-color: black;
+
   margin-left: 0.5rem;
-  box-shadow: 0 0 25px #3a842d;
+  box-shadow: rgba(215, 215, 215, 0.15) 0px 5px 15px;
+  /* box-shadow: 0 0 10px #3a842d; */
 }
+
+.home__icon-section__container:hover {
+  /* box-shadow: 0 0 5px rgb(77, 39, 32);
+  text-shadow: 0 0 5px rgb(38 77 32); */
+  cursor: pointer;
+}
+
 .home__icon-section__icon {
   font-size: 1.1rem;
-  color: #3a842d;
+  color: rgb(38 77 32);
 }
+
 .home__info-section__header {
   color: white;
   font-size: 3.5rem;
 }
 .home__span {
-  color: #3a842d;
+  color: rgb(38 77 32);
+  font-family: "Homemade Apple", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .home__img-section {
   width: 50%;
@@ -86,5 +98,7 @@
   border-radius: 50%;
   /* background-blend-mode: screen; */
   /* box-shadow: 0 0 25px grey; */
-  box-shadow: 0 0 25px #3a842d;
+  /* box-shadow: 0 0 25px #3a842d; */
+  box-shadow: 0 0 25px rgb(38 77 32);
 }
+/* // here */

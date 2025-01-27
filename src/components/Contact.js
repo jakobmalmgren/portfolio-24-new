@@ -3,13 +3,10 @@ import { CiMail } from "react-icons/ci";
 import { GiRotaryPhone } from "react-icons/gi";
 import { PiMapPinSimpleAreaThin } from "react-icons/pi";
 import { BsPerson, BsPersonPlus, BsPencil } from "react-icons/bs";
-import logoNavbar from "../images/logoJM.png";
-// 'ndra om till BEM
 
 const Contact = () => {
   return (
     <div className="contact">
-      <img src={logoNavbar} alt="" className="navbar__icon" />
       <div className="contact-container-content">
         {/* <div className="contact-container"> */}
         <div className="contact-container-wrapper">

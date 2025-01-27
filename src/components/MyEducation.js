@@ -1,5 +1,5 @@
 import "./MyEducation.css";
-import data from "../EducationData.js";
+import data from "./EducationData.js";
 import ResumeCard from "./ResumeCard";
 
 const MyEducation = () => {

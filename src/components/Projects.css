@@ -1,14 +1,6 @@
 .projects {
-  height: 94%;
-  width: 95vw;
+  /* height: 94%; */
+  /* width: 100vw; */
+  height: 100%;
   background-color: black;
-}
-.navbar__icon {
-  border: 1.4px solid #3a842d;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
 }
