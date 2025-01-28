@@ -5,6 +5,9 @@ import { ImHome3 } from "react-icons/im";
 import { IoPersonSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import logoNavbar from "../images/logoJM.png";
+import Zoom from "@mui/material/Zoom";
+
+import Tooltip from "@mui/material/Tooltip";
 
 const NavbarIcons = () => {
   const NavlinkStyles = ({ isActive }) => {
@@ -21,28 +24,99 @@ const NavbarIcons = () => {
       </NavLink>
 
       <ul>
-        <li>
-          <NavLink style={NavlinkStyles} to="/">
-            <ImHome3 />
-          </NavLink>
-        </li>
+        <Tooltip
+          componentsProps={{
+            tooltip: {
+              sx: {
+                bgcolor: "common.black",
+                "& .MuiTooltip-arrow": {
+                  color: "common.black",
+                },
+              },
+            },
+          }}
+          title="Home"
+          arrow
+          slots={{
+            transition: Zoom,
+          }}
+        >
+          <li>
+            <NavLink style={NavlinkStyles} to="/">
+              <ImHome3 />
+            </NavLink>
+          </li>
+        </Tooltip>
 
-        <li>
-          <NavLink style={NavlinkStyles} to="/resume">
-            <FaBriefcase />
-          </NavLink>
-        </li>
-        <li>
-          <NavLink style={NavlinkStyles} to="/projects">
-            <IoPersonSharp />
-          </NavLink>
-        </li>
-
-        <li>
-          <NavLink style={NavlinkStyles} to="/contact">
-            <IoIosMail />
-          </NavLink>
-        </li>
+        <Tooltip
+          componentsProps={{
+            tooltip: {
+              sx: {
+                bgcolor: "common.black",
+                "& .MuiTooltip-arrow": {
+                  color: "common.black",
+                },
+              },
+            },
+          }}
+          title="Resume"
+          arrow
+          slots={{
+            transition: Zoom,
+          }}
+        >
+          <li>
+            <NavLink style={NavlinkStyles} to="/resume">
+              <FaBriefcase />
+            </NavLink>
+          </li>
+        </Tooltip>
+        <Tooltip
+          componentsProps={{
+            tooltip: {
+              sx: {
+                bgcolor: "common.black",
+                "& .MuiTooltip-arrow": {
+                  color: "common.black",
+                },
+              },
+            },
+          }}
+          title="Projects"
+          arrow
+          slots={{
+            transition: Zoom,
+          }}
+        >
+          <li>
+            <NavLink style={NavlinkStyles} to="/projects">
+              <IoPersonSharp />
+            </NavLink>
+          </li>
+        </Tooltip>
+        <Tooltip
+          componentsProps={{
+            tooltip: {
+              sx: {
+                bgcolor: "common.black",
+                "& .MuiTooltip-arrow": {
+                  color: "common.black",
+                },
+              },
+            },
+          }}
+          title="Contact"
+          arrow
+          slots={{
+            transition: Zoom,
+          }}
+        >
+          <li>
+            <NavLink style={NavlinkStyles} to="/contact">
+              <IoIosMail />
+            </NavLink>
+          </li>
+        </Tooltip>
       </ul>
     </nav>
   );
