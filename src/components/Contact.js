@@ -12,33 +12,28 @@ const Contact = () => {
         <div className="contact-container-wrapper">
           <div className="contact-container-icons">
             <div className="icon-wrapper">
-              <div className="icon-circle">
-                <GiRotaryPhone className="icon-circle__icon " />
-              </div>
+              <GiRotaryPhone className="icon-circle__icon " />
+
               <section className="icon-wrapper__info-wrapper">
-                <p className="icon-wrapper__text-upper">Phone</p>
                 <p className="icon-wrapper__text-below"> (+46) 768- 699954</p>
               </section>
             </div>
+            <br />
             <div className="icon-wrapper">
-              <div className="icon-circle">
-                <CiMail className="icon-circle__icon " />
-              </div>
+              <CiMail className="icon-circle__icon " />
               <section className="icon-wrapper__info-wrapper">
-                <p className="icon-wrapper__text-upper">Email</p>
                 <p className="icon-wrapper__text-below">
                   Jakob.Malmgren1987@gmail.com
                 </p>
               </section>
             </div>
+            <br />
             <div className="location-wrapper">
               {/* <div className="icon-wrapper"></div> */}
               <div className="icon-wrapper">
-                <div className="icon-circle">
-                  <PiMapPinSimpleAreaThin className="icon-circle__icon " />
-                </div>
+                <PiMapPinSimpleAreaThin className="icon-circle__icon " />
+
                 <section className="icon-wrapper__info-wrapper">
-                  <p className="icon-wrapper__text-upper">Address</p>
                   <p className="icon-wrapper__text-below">
                     Kristianstad, Sweden
                   </p>
@@ -124,7 +119,7 @@ const Contact = () => {
               </div>
 
               <button className="form-btn" type="submit" value="Submit">
-                <h3>SEND</h3>
+                SEND
               </button>
             </form>
           </div>
