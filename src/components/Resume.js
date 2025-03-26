@@ -19,7 +19,7 @@ const resumeSkill = [
   {
     image: "/images/github.png",
     skillName: "Github",
-    whatArea: "version control system",
+    whatArea: "VCS",
   },
   {
     image: "/images/sass.png",
@@ -39,7 +39,7 @@ const resumeSkill = [
   {
     image: "/images/typescript.png",
     skillName: "Typescript",
-    whatArea: "Javascript with superpowers",
+    whatArea: "JS with superpowers",
   },
   {
     image: "/images/java-script.png",
@@ -80,10 +80,16 @@ const resumeSkill = [
 
 const Resume = () => {
   return (
-    <div>
-      {resumeSkill.map((item) => {
-        return <ResumeBox key={item.skillName} item={item} />;
-      })}
+    <div className="resume">
+      <div className="resume__container">
+        <h1 className="resume__header">~ My toolbox ~</h1>
+        <div className=" resume__objects">
+          {resumeSkill.map((item) => {
+            return <ResumeBox key={item.skillName} item={item} />;
+          })}
+          <h1 className="resume__header">~ My softskills ~</h1>
+        </div>
+      </div>
     </div>
   );
 };
