@@ -1,35 +1,89 @@
 import "./Resume.css";
-import MyExperience from "./MyExperience.js";
-import MyEducation from "./MyEducation.js";
-import MySkills from "./MySkills.js";
-import AboutMe from "./AboutMe.js";
+import ResumeBox from "./ResumeBox";
+const resumeSkill = [
+  {
+    image: "/images/atom.png",
+    skillName: "React",
+    whatArea: "Framework",
+  },
+  {
+    image: "/images/firebase.png",
+    skillName: "Firebase",
+    whatArea: "Database",
+  },
+  {
+    image: "/images/figma.png",
+    skillName: "Figma",
+    whatArea: "Design",
+  },
+  {
+    image: "/images/github.png",
+    skillName: "Github",
+    whatArea: "version control system",
+  },
+  {
+    image: "/images/sass.png",
+    skillName: "SASS",
+    whatArea: "Extenssion for css",
+  },
+  {
+    image: "/images/tailwind.png",
+    skillName: "Tailwind",
+    whatArea: "CSS framework",
+  },
+  {
+    image: "/images/redux.svg",
+    skillName: "Redux",
+    whatArea: "State management tool",
+  },
+  {
+    image: "/images/typescript.png",
+    skillName: "Typescript",
+    whatArea: "Javascript with superpowers",
+  },
+  {
+    image: "/images/java-script.png",
+    skillName: "Javascript",
+    whatArea: "Coding language",
+  },
+  {
+    image: "/images/html.png",
+    skillName: "HTML",
+    whatArea: "Structure",
+  },
+  {
+    image: "/images/css-3.png",
+    skillName: "CSS",
+    whatArea: "Design",
+  },
+  {
+    image: "/images/bootstrap.svg",
+    skillName: "Bootstrap",
+    whatArea: "CSS library",
+  },
+  {
+    image: "/images/express.jpg",
+    skillName: "Express JS",
+    whatArea: "Node JS framework",
+  },
+  {
+    image: "/images/nodeJS.png",
+    skillName: "Node JS",
+    whatArea: "Back-end language",
+  },
+  {
+    image: "/images/mongodb.png",
+    skillName: "Mongo DB",
+    whatArea: "Database",
+  },
+];
 
 const Resume = () => {
   return (
-    <div className="resume">
-      <section className="resume__wrapper">
-        <section className="resume__btn-section">
-          <section className="resume__btn-section__wrapper">
-            <h1 className="resume__header">Why hire me?</h1>
-            <p className="resume__paragrapgh">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, dicta? Quos eum sequi iste dolores?
-            </p>
-            <section className="resume__btn-wrapper">
-              <button className="resume__btn-wrapper__btn">Experience</button>
-              <button className="resume__btn-wrapper__btn">Education</button>
-              <button className="resume__btn-wrapper__btn">Skills</button>
-              <button className="resume__btn-wrapper__btn">About Me</button>
-            </section>
-          </section>
-        </section>
-        <section className="resume__show-section">
-          {/* <AboutMe></AboutMe> */}
-          {/* <MyExperience></MyExperience> */}
-          <MySkills></MySkills>
-          {/* <MyEducation></MyEducation> */}
-        </section>
-      </section>
+    <div>
+      {resumeSkill.map((item) => {
+        return <ResumeBox key={item.skillName} item={item} />;
+      })}
     </div>
   );
 };

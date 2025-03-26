@@ -18,21 +18,21 @@ const Home = () => {
             creation of scalable projects.
           </p>
           <section className="home__btn-icons-wrapper">
-            {/* <section className="home__btn-section"></section> */}
+            <section className="home__btn-section"></section>
             <section className="home__icon-section">
-              {/* <section className="home__icon-section__container"> */}
-              <NavLink target="_ blank" to="https://github.com/jakobmalmgren">
-                <LuGithub className="home__icon-section__icon" />
-              </NavLink>
-              {/* </section> */}
-              {/* <section className="home__icon-section__container"> */}
-              <NavLink
-                target="_ blank"
-                to="https://www.linkedin.com/in/jakob-malmgren-832062226/"
-              >
-                <RiLinkedinLine className="home__icon-section__icon" />
-              </NavLink>
-              {/* </section> */}
+              <section className="home__icon-section__container">
+                <NavLink target="_ blank" to="https://github.com/jakobmalmgren">
+                  <LuGithub className="home__icon-section__icon" />
+                </NavLink>
+              </section>
+              <section className="home__icon-section__container">
+                <NavLink
+                  target="_ blank"
+                  to="https://www.linkedin.com/in/jakob-malmgren-832062226/"
+                >
+                  <RiLinkedinLine className="home__icon-section__icon" />
+                </NavLink>
+              </section>
             </section>
           </section>
         </section>

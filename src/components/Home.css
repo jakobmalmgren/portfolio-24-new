@@ -25,22 +25,21 @@
   letter-spacing: 0.2rem;
 }
 .home__btn-icons-wrapper {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .home__icon-section {
   display: flex;
-  /* width: 5%; */
+
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 35%;
-  height: 90px;
+  height: 50px;
   right: 1rem;
-  /* background-color: red; */
-  /* justify-content: space-between; */
+  background-color: red;
 }
 .home__icon-section__container {
   /* width: 40px;

@@ -1,0 +1,43 @@
+.resume-box {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  padding: 3px;
+}
+
+.resume-box__innerdiv {
+  background-color: #262626;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  padding: 6px;
+}
+.resume-box__img {
+  height: 40%;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.resume-box__icon-wrapper {
+  background-color: grey;
+  background-color: rgb(38, 77, 32);
+  height: 100%;
+  border-radius: 10px;
+  min-width: 50px;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-box__about {
+  padding: 5px;
+}
+.resume-box__skillName {
+  font-size: 13px;
+  color: white;
+}
+.resume-box__area {
+  font-size: 10px;
+  color: white;
+}

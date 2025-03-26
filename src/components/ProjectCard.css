@@ -24,18 +24,20 @@
   padding: 3px 6px;
   margin: 0px 5px;
   border: none;
-
+  font-family: ui-rounded;
   border-radius: 6px;
-  background-color: #ff00008f;
+  background-color: #00ff0053;
+  border: 1px solid black;
   font-weight: bolder;
 }
 .project-card__label--back {
   padding: 3px 6px;
   margin: 0px 5px;
   border: none;
-
+  font-family: ui-rounded;
   border-radius: 6px;
   background-color: #ffbf008f;
+  border: 1px solid black;
   font-weight: bolder;
 }
 
